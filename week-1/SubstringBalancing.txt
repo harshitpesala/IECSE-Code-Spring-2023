@@ -1,0 +1,6 @@
+fun main() {
+    repeat(readLine()!!.toInt()) {
+        val s = readLine()!!
+        println(s.last() + s.substring(1))
+    }
+}
